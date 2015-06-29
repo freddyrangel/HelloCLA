@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'hellosign-ruby-sdk'
+gem 'omniauth-github', '~> 1.1.2'
 gem 'pg'
 gem 'rails', '4.2.1'
 gem 'unicorn'
@@ -22,5 +23,6 @@ group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers', require: false
+  gem 'simplecov', require: false
   gem 'webmock'
 end
